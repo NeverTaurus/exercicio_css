@@ -1,0 +1,131 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3648;
+    padding: 16px 0;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    margin-left: 16px;
+}
+
+header li a {
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    /*height: 180px;
+    altura nao fivou boa vamos mecher na largura*/
+    width: 100%;
+}
+
+
+.article article{
+    width: 30%;
+
+}
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.article article {
+    margin-bottom: 16px 0;
+}
+
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover {
+    text-decoration: underline;
+}
+
+
+.article article p,
+.article article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0 ,0.1);
+}
+
+#esportes .article article a {
+    background-color: green;
+}
+
+#economy {
+    background-color: goldenrod;
+}
+#economy .article article a {
+    background-color: brown;
+}
+
+#jogos {
+    background-color: black;
+}
+#jogos .article article a {
+    background-color: gray;
+}
+#jogos .article article {
+    color: whitesmoke;
+}
+
+#vinho {
+    background-color: #5e2129;
+}
+#vinho .article article a {
+    background-color: #a52a2a;
+}
+#vinho .article article {
+    color: whitesmoke;
+}
